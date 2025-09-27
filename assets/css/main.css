@@ -1,0 +1,14 @@
+
+@import "tailwindcss";
+@import "@nuxt/ui";
+a, p, span, h1, h2, h3, h4, h5, h6, strong {
+    font-family: 'DAYTONA LIGHT', sans-serif;
+}
+
+@media (min-width: 1200px) {
+    .p-md-6{
+padding: 4%;
+}
+}
+
+
