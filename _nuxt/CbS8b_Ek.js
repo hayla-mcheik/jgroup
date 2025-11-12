@@ -1,0 +1,1 @@
+import{u as s}from"./CSrAqISc.js";import{r as t,R as a,c as n,a as u,o as c}from"#entry";const l={class:"flex h-screen bg-gray-100 font-inter"},p={__name:"dashboard",setup(d){const o=s();return t(!1),o.isLoggedIn||a().push("/login"),(r,e)=>(c(),n("div",l,[...e[0]||(e[0]=[u("h1",null,"dashboard",-1)])]))}};export{p as default};

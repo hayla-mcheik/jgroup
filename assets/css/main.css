@@ -1,0 +1,80 @@
+
+@import "tailwindcss";
+@import "@nuxt/ui";
+/* a, p, span{
+    font-family: 'DAYTONA LIGHT', sans-serif;
+} */
+ a, p, span{
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+
+
+/* h1, h2, h3, h4, h5, h6, strong{
+   font-family: "Montserrat", sans-serif;
+} */
+
+h1, h2, h3, h4, h5, h6, strong{
+   font-family: 'DAYTONA LIGHT', sans-serif;
+}
+
+
+@media (min-width: 1200px) {
+    .p-md-6{
+padding: 4%;
+}
+}
+
+@media (max-width: 767px) {
+    .drawer-content {
+  display: flex;
+  flex-direction: column;
+  height: 90% !important;
+  position: relative;
+  justify-content: space-between;
+}
+}
+
+.drawer-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+
+.box-company-content p{
+font-size: 14px;
+}
+@media (min-width: 2000px) {
+    .box-company-content p{
+font-size: 18px !important;
+}
+}
+
+
+
+
+
+    body::-webkit-scrollbar {
+                width: 6px;
+            }
+    
+            body::-webkit-scrollbar-track {
+
+            }
+
+    
+            body::-webkit-scrollbar-thumb {
+                background-color: #a63131;
+                border-radius: 1px;
+                border: 2px solid #a63131;
+            }
+.companies-section , .technologies-section , .news-section , .team-section{
+    background-image: url('/jgrouptest/assets/images/backk.png') !important;
+
+}
+.team-margin-top {
+    position: relative;
+    z-index: 999;
+}
